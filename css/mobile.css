@@ -1,0 +1,62 @@
+#what .items {
+  display: block;
+  padding: 1rem;
+}
+
+/* Icon-уудыг зүүн тал руу зэрэгцүүлэх */
+#what .items .item {
+  display: flex;
+  text-align: left;
+}
+
+/* Icon-ын байршил */
+#what .items .item i {
+  margin-right: 1.3rem;
+  align-self: center;
+  margin-bottom: 0;
+}
+
+/* Smartphones */
+@media(max-width: 500px) {
+  #navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #navbar .logo {
+    margin-bottom: 0.5rem;
+    text-align: center;
+  }
+
+  #navbar ul {
+    padding: 0.5rem;
+  }
+
+  #showcase .showcase-content {
+    top: 113px;
+  }
+
+  #who {
+    display: block;
+  }
+
+  #who .who-img {
+    display: none;
+  }
+
+  #clients .items img {
+    width: 80%;
+  }
+
+  #clients .items div:last-child {
+    display: none;
+  }
+
+  #contact {
+   flex-direction: column;
+  }
+
+  .m-heading {
+    font-size: 1.5rem;
+  }
+}
